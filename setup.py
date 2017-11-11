@@ -33,6 +33,9 @@ setup(
         "timezone": ["pytz"],
     },
     license='MIT',
+    entry_points={
+        'console_scripts': ['geopy=geopy.__main__:main']
+    },
     keywords='geocode geocoding gis geographical maps earth distance',
     classifiers=[
         "Development Status :: 5 - Production/Stable",
